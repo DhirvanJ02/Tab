@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <div
-    className="border-b border-[#334139] bg-[#334139] py-4 fixed top-0 left-0 w-full text-white z-50"
+    className="border-b border-[#2D4335] bg-[#2D4335] py-4 fixed top-0 left-0 w-full text-white z-50"
   >
   <div className="container flex justify-between items-center">
   {/* Logo */}
