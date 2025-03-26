@@ -89,21 +89,21 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c"
-                alt="Pastor John"
+                src="images/P1.png"
+                alt="Pastor Phillip Arnold Barkley"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold text-navy">Pastor John Smith</h3>
+              <h3 className="text-xl font-semibold text-navy">Pastor Phillip Arnold Barkley</h3>
               <p className="text-slate">Senior Pastor</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e"
-                alt="Sarah Johnson"
+                src="images/P2.png"
+                alt="Pastor Gershwyn Micheal Gopaul"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold text-navy">Sarah Johnson</h3>
-              <p className="text-slate">Worship Leader</p>
+              <h3 className="text-xl font-semibold text-navy">Pastor Gershwyn Micheal Gopaul</h3>
+              <p className="text-slate">Assistant Pastor</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <img
@@ -111,8 +111,8 @@ export default function About() {
                 alt="Mike Williams"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold text-navy">Mike Williams</h3>
-              <p className="text-slate">Youth Pastor</p>
+              <h3 className="text-xl font-semibold text-navy">Leader Name</h3>
+              <p className="text-slate">Sphere Name Here</p>
             </div>
           </div>
         </motion.div>

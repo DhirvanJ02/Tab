@@ -37,42 +37,42 @@ export default function NewHere() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold text-navy mb-12">What to Expect</h2>
+          <h2 className="text-3xl font-bold text-navy mb-12">Here for you</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <Clock className="h-12 w-12 text-sage mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-navy mb-2">
-                Service Times
+                Join In Fellowship
               </h3>
               <p className="text-slate">
-                Sunday services at 9:00 AM & 11:00 AM. Wednesday night at 7:00 PM
+                Sunday services at 9:30 AM. Wednesday night at 7:00 PM
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <Users className="h-12 w-12 text-sage mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-navy mb-2">
-                Community Groups
+                Ministry Spheres
               </h3>
               <p className="text-slate">
-                Connect with others in small groups throughout the week
+                Find a space to Take your place and Grow
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <Heart className="h-12 w-12 text-sage mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-navy mb-2">
-                Kids & Youth
+                Being The Heartbeart
               </h3>
               <p className="text-slate">
-                Age-appropriate programs for children and teenagers
+                Making a tangible impact in our community with relevant programs
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <Book className="h-12 w-12 text-sage mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-navy mb-2">
-                Bible Study
+                Bible School On Wheels
               </h3>
               <p className="text-slate">
-                Various study groups and discipleship opportunities
+                Become a better deciple through our TEN accredited BSOW
               </p>
             </div>
           </div>
