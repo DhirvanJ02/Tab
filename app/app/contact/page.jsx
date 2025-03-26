@@ -98,14 +98,14 @@ export default function Contact() {
                   <MapPin className="h-6 w-6 text-sage flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-navy">Address</h3>
-                    <p className="text-slate">123 Church Street, City, ST 12345</p>
+                    <p className="text-slate">Corner Povall & Currie Roads Berea, Durban, 4062</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Phone className="h-6 w-6 text-sage flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-navy">Phone</h3>
-                    <p className="text-slate">(555) 123-4567</p>
+                    <p className="text-slate">(031) 201 8398</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">

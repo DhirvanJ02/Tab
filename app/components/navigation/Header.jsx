@@ -39,7 +39,7 @@ export default function Header() {
   <div className="hidden lg:flex items-center space-x-8 mx-auto">
   <Link href="/" className="relative group">
           <span className="font-gotham font-bold text-heading-1 transition-all">
-            Home
+            Hear The Heartbeat
           </span>
           <span
             className={`absolute left-0 bottom-0 w-0 h-1 bg-bet-turq transition-all duration-300 ease-in-out group-hover:w-full ${

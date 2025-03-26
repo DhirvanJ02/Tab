@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X, Church } from 'lucide-react';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,24 +13,31 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
+  
             <Link href="/" className="flex items-center space-x-2">
-              <Church className="h-8 w-8 text-sage" />
+            <Image
+      src="/images/TabMono.png"
+      alt="Full Gospel Tabernacle Logo"
+      width={32}
+      height={32}
+      className="h-8 w-8"
+    />
               <span className="text-xl font-bold font-serif tracking-wide">Full Gospel Tabernacle</span>
             </Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link href="/" className="px-3 py-2 rounded-md hover:bg-sage hover:text-navy transition-colors">
-                Home
+                Hear The Hearbeat
               </Link>
               <Link href="/about" className="px-3 py-2 rounded-md hover:bg-sage hover:text-navy transition-colors">
-                About
+                Feel The Heartbeat
               </Link>
               <Link href="/new-here" className="px-3 py-2 rounded-md hover:bg-sage hover:text-navy transition-colors">
-                New Here
+                Be The Heartbeat
               </Link>
               <Link href="/contact" className="px-3 py-2 rounded-md hover:bg-sage hover:text-navy transition-colors">
-                Contact
+                Connect With Us
               </Link>
             </div>
           </div>
